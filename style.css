@@ -1,0 +1,53 @@
+
+header {
+    background-image: url("https://th.bing.com/th/id/R.fabf82f1ba1fbf175c617bacb44d797f?rik=u9aSAiatdC0k7Q&riu=http%3a%2f%2fiwallpapers2.free.fr%2fimages%2fPhotographie%2fVintage%2fTexture_-_fond_noir_-_1920x1080.jpg&ehk=mQIvvmDGceoiEN3dzJoseoV7BI%2b%2bfnIhszD3DB1N0Io%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100px; /* Hauteur*/
+    display: flex;
+    justify-content: left ;
+    align-items: left;
+    
+    color : white;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;}
+
+
+
+
+
+body{
+    
+/* Font de la page */
+    background-image: url(https://th.bing.com/th/id/R.f07635fc24d8e33b3bddac1b15e6ea51?rik=Hwnl%2bfmHf7PzQg&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+
+}
+
+
+/* Bas de page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
