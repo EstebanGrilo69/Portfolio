@@ -6,19 +6,30 @@ header {
     background-attachment: fixed;
     height: 100px; 
     display: flex;
-    justify-content: left ;
+    justify-content: left;
     align-items: left;
-    border: right 10px;
-
-
+    border-right: 10px solid #000;
     margin: 0;
-    padding: 10px 0; 
+    padding: 10px 0;
     width: 100%;
-
-    color : rgba(243, 243, 243, 0.468);
+    color: rgb(255, 255, 255);
     opacity: 1;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(220, 220, 190) ;
+    background-color: rgb(220, 220, 190);
 }
 
+@media (max-width: 768px) {
+    header {
+        height: 80px; 
+        padding: 5px 0; 
+        justify-content: center; 
+        border-right: none; 
+        background-color: rgba(220, 220, 190, 0.8); /
+    }
+
+    
+    header img {
+        width: 50px; 
+    }
+}

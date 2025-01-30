@@ -4,51 +4,34 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100px; /* Hauteur*/
+    height: 100px; 
     display: flex;
-    margin:-15px ;
-    justify-content: left ;
+    margin: -15px;
+    justify-content: left;
     align-items: left;
-    
-    color : white;
+    color: white;
     opacity: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;}
+    padding: 10px;
+}
 
-
-
-
-
-body{
-    
-/* Font de la page */
+body {
     background-image: url(https://th.bing.com/th/id/R.f07635fc24d8e33b3bddac1b15e6ea51?rik=Hwnl%2bfmHf7PzQg&pid=ImgRaw&r=0);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-    
-
 }
 
+@media (max-width: 768px) {
+    header {
+        height: 80px;
+        padding: 5px; 
+        justify-content: center; 
+    }
 
-/* Bas de page */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    body {
+        background-size: contain; 
+    }
+}
