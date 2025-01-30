@@ -6,23 +6,58 @@ header {
     background-attachment: fixed;
     height: 100px; /* Hauteur*/
     display: flex;
+    margin:-15px ;
     justify-content: left ;
     align-items: left;
     
     color : white;
     opacity: 1;
-    display: flex;
+    
     justify-content: space-between;
     align-items: center;
     padding: 10px;}
-
-
- body{
-    color : black;
-    justify-content: space-between;
-    align-items: center;
+    h1{
+      text-align: center;
+      font-size: 50px;
+       color : rgb(0, 0, 0);
+       justify-content: space-between;
+       align-items: center;
+    
+    }
     
 
- } 
+      
+    .ImageP{
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      
+      
+    }
+
+
+
+    h2{color: rgb(48, 219, 224);text-align: center;
+      .container {
+        text-align: left;
+        font-size: 30px;
+         color : rgb(255, 255, 255);
+         justify-content: space-between;
+         align-items: center;
+      }
+   
+    }
+
+ body{ 
+ 
+    background-image: url("https://th.bing.com/th/id/OIP.9YeCvftJo70EyV0BZ27P6AHaE8?rs=1&pid=ImgDetMain");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+
+ }
+
+
 
     
