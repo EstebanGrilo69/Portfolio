@@ -12,6 +12,25 @@ body {
   padding: 0;
 }
 
+header {
+  background: rgba(0, 0, 0, 0.6); 
+  padding: 20px 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between; 
+  margin: 0;
+  width: 80%;
+  margin: 0 auto; 
+}
+
+nav ul b a {
+  text-decoration: none;
+  color: white;
+}
 
 button {
   padding: 1px 20px;
